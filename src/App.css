@@ -1,0 +1,45 @@
+/* src/App.css */
+body {
+  background-color: #f8f9fa; /* Light background */
+}
+
+h1 {
+  color: #000000; /* Bootstrap green color */
+}
+
+h2 {
+  color: #000000; /* Bootstrap green color */
+}
+
+.btn-primary {
+  background-color: #28a745; /* Primary button color */
+  border-color: #28a745; /* Button border color */
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.table-container {
+  width: 60%; /* Adjust width to make it shorter */
+  margin: 0 auto; /* Center the table */
+  padding: 20px;
+}
+
+.table {
+  border: 2px solid green !important;
+}
+
+.table th, .table td {
+  border: 1px solid #3e3f3f; /* Cell border color */
+}
+
+.alert-danger {
+  background-color: #f8d7da; /* Light red background for errors */
+  color: #721c24; /* Dark red text for errors */
+}
+
+.alert-success {
+  background-color: #d4edda; /* Light green background for success */
+  color: #155724; /* Dark green text for success */
+}
